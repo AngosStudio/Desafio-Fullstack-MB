@@ -1,0 +1,12 @@
+
+POST http://localhost:3000/registration
+Content-Type: application/json
+
+{
+    "email": "brunoangos@gmail.com",
+    "nome_razao": "Bruno Angos",
+    "documento": "000.000.000-00",
+    "dn_da": "29/01/1986",
+    "telefone": "(51) 98308-1198",
+    "senha": "123456"
+}
